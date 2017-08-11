@@ -15,8 +15,10 @@
   	<%= render 'layouts/navigation' %>
   	<section id="header">
   		<div class="container">
-			<%= yield %>
-		</div>
-	</section>
+        <p class="notice"><%= notice %></p>
+        <p class="alert"><%= alert %></p>
+			  <%= yield %>
+		  </div>
+  	</section>
   </body>
 </html>
